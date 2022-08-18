@@ -13,6 +13,7 @@ class MainScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: Text("Profile.com"),
+          centerTitle: true,
           bottom: TabBar(tabs: [
             Tab(
               icon: Icon(
